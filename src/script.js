@@ -18,7 +18,7 @@ document.getElementById('create-job').addEventListener('click', function() {
         testSelect: document.getElementById('test-select').value
     };
 
-    fetch('https://api.pipedrive.com/v1', {
+    fetch('https://api.pipedrive.com/v1/activities', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
