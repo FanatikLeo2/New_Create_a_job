@@ -49,6 +49,7 @@ document.getElementById('create-job').addEventListener('click', function() {
     .then(data => {
         if (data.success) {
             alert('Job is created');
+            window.location.href = `https://rosti-sandbox.pipedrive.com/deal/${dealId}`;
         } else {
             alert('Failed to update deal title: ' + data.error);
         }
