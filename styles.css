@@ -32,9 +32,11 @@ body {
     margin-top: 0;
 }
 
-label {
-    display: block;
-    margin: 10px 0 5px;
+.name-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
 }
 
 input[type="text"],
@@ -50,6 +52,7 @@ select {
     box-sizing: border-box;
     border-radius: 5px;
 }
+
 
 textarea {
     height: 100px;
